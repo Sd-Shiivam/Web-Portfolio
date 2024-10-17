@@ -14,10 +14,12 @@ const Notfound = () => {
 	useEffect(() => {
 		document.title = `404 | ${INFO.main.title}`;
 	}, []);
-
+	const css = {
+		marginTop: "50px"
+	}
 	return (
 		<React.Fragment>
-			<div className="not-found page-content" style="top:50px">
+			<div className="not-found page-content" style={css}>
 				<NavBar />
 				<div className="content-wrapper">
 					<div className="notfound-logo-container">

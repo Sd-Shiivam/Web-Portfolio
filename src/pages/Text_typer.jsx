@@ -22,7 +22,7 @@ const Text_typer = ({ text, speed }) => {
         return () => {
             typed.destroy();
         };
-    }, [text]); // Re-run effect if `text` prop changes
+    }, [text, speed]); // Re-run effect if `text` prop changes
 
     return <span ref={el} className="bio-text" />; // Attach ref to the span element
 };
