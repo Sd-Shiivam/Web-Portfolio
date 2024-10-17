@@ -8,7 +8,7 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import Text_typer from './Text_typer'
+import TextTyper from './TextTyper'
 import "./styles/contact.css";
 
 const Contact = () => {
@@ -44,7 +44,7 @@ const Contact = () => {
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							<Text_typer speed={40} text={"Thank you for your interest in reaching out!"} />
+							<TextTyper speed={40} text={"Thank you for your interest in reaching out!"} />
 							<br />
 							I’m always open to feedback, questions, and new ideas.
 							If you have something on your mind, feel free to {" "}

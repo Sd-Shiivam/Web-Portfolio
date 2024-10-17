@@ -15,12 +15,12 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-import Domain_Typer from "./Domain_Typer";
+import DomainTyper from "./DomainTyper";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import "./styles/homepage.css";
-import Text_typer from "./Text_typer";
+import TextTyper from "./TextTyper";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -91,12 +91,12 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									Hello, <br /> I'm {INFO.main.name} – <br /> <span style={domain_style}><Domain_Typer /></span>
+									Hello, <br /> I'm {INFO.main.name} – <br /> <span style={domain_style}><DomainTyper /></span>
 									<span class="auto-text"></span>
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									<Text_typer speed={50} text={INFO.homepage_about.description} />
+									<TextTyper speed={50} text={INFO.homepage_about.description} />
 								</div>
 							</div>
 

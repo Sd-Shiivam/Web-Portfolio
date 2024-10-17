@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/project.css";
-import Text_typer from "../../pages/Text_typer";
+import TextTyper from "../../pages/TextTyper";
 
 const Project = (props) => {
 	const { logo, title, description, linkText, link } = props;
@@ -19,7 +19,7 @@ const Project = (props) => {
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">
-							<Text_typer speed={50} text={description} />
+							<TextTyper speed={50} text={description} />
 						</div>
 						<div className="project-link">
 							<div className="project-link-icon">

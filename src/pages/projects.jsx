@@ -10,7 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
-import Text_typer from "./Text_typer";
+import TextTyper from "./TextTyper";
 
 const Projects = () => {
 	useEffect(() => {
@@ -44,7 +44,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							<Text_typer speed={20} text={INFO.projects.description} />
+							<TextTyper speed={20} text={INFO.projects.description} />
 						</div>
 
 						<div className="projects-list">

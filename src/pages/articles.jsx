@@ -8,7 +8,7 @@ import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import Text_typer from "./Text_typer";
+import TextTyper from "./TextTyper";
 
 import "./styles/articles.css";
 
@@ -46,7 +46,7 @@ const Articles = () => {
 
 						<div className="subtitle articles-subtitle">
 
-							<Text_typer speed={10} text={INFO.articles_page.description} />
+							<TextTyper speed={10} text={INFO.articles_page.description} />
 						</div>
 
 						<div className="articles-container">

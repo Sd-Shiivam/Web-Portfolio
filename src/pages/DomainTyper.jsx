@@ -1,9 +1,9 @@
-// src/Domain_Typer.js
+// src/DomainTyper.js
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import INFO from '../data/user';
 
-const Domain_Typer = () => {
+const DomainTyper = () => {
     const el = useRef(null); // Create a ref for the element to attach Typed.js to
 
     useEffect(() => {
@@ -28,4 +28,4 @@ const Domain_Typer = () => {
     return <span ref={el} className="domain-text" />; // Attach ref to the span element
 };
 
-export default Domain_Typer;
+export default DomainTyper;

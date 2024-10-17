@@ -1,8 +1,8 @@
-// src/Text_typer.js
+// src/TextTyper.js
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
-const Text_typer = ({ text, speed }) => {
+const TextTyper = ({ text, speed }) => {
     const el = useRef(null); // Create a ref for the element to attach Typed.js to
 
     useEffect(() => {
@@ -27,4 +27,4 @@ const Text_typer = ({ text, speed }) => {
     return <span ref={el} className="bio-text" />; // Attach ref to the span element
 };
 
-export default Text_typer;
+export default TextTyper;

@@ -8,7 +8,7 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import Text_typer from "./Text_typer";
+import TextTyper from "./TextTyper";
 
 import "./styles/about.css";
 
@@ -46,12 +46,12 @@ const About = () => {
 									Hello, <br />
 									I'm {INFO.main.name}
 									<br />
-									<Text_typer speed={80} text={INFO.about.title} />
+									<TextTyper speed={80} text={INFO.about.title} />
 								</div>
 
 								<div className="subtitle about-subtitle">
 
-									<Text_typer speed={10} text={INFO.about.description} />
+									<TextTyper speed={10} text={INFO.about.description} />
 								</div>
 							</div>
 
