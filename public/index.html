@@ -15,16 +15,20 @@
 </body>
 <script src="%PUBLIC_URL%/Matrix.js"></script>
 <script>
-	// Create a function to set the viewport for desktop mode
-function setDesktopViewport() {
-    const viewport = document.createElement('meta');
-    viewport.name = "viewport";
-    viewport.content = "width=1024"; // You can set a custom width
-    document.getElementsByTagName('head')[0].appendChild(viewport);
+
+function setDesktopViewportWithZoom() {
+    let viewport = document.querySelector("meta[name='viewport']");
+    if (!viewport) {
+        viewport = document.createElement('meta');
+        viewport.name = "viewport";
+        document.getElementsByTagName('head')[0].appendChild(viewport);
+    }
+    viewport.content = "width=1024, initial-scale=1.5, maximum-scale=1.5, user-scalable=no";
 }
 
 // Execute the function to set the viewport
-setDesktopViewport();
+setDesktopViewportWithZoom();
+
 
 </script>
 </html>
