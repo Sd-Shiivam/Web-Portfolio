@@ -104,6 +104,299 @@ const INFO = {
 	],
 
 	repos: [
+
+		{
+			id: 376042371,
+			node_id: "MDEwOlJlcG9zaXRvcnkzNzYwNDIzNzE=",
+			name: "Sd-Shiivam",
+			full_name: "Sd-Shiivam/Sd-Shiivam",
+			private: false,
+			owner: {
+				login: "Sd-Shiivam",
+				id: 75006771,
+				node_id: "MDQ6VXNlcjc1MDA2Nzcx",
+				avatar_url:
+					"https://avatars.githubusercontent.com/u/75006771?v=4",
+				gravatar_id: "",
+				url: "https://api.github.com/users/Sd-Shiivam",
+				html_url: "https://github.com/Sd-Shiivam",
+				followers_url:
+					"https://api.github.com/users/Sd-Shiivam/followers",
+				following_url:
+					"https://api.github.com/users/Sd-Shiivam/following{/other_user}",
+				gists_url:
+					"https://api.github.com/users/Sd-Shiivam/gists{/gist_id}",
+				starred_url:
+					"https://api.github.com/users/Sd-Shiivam/starred{/owner}{/repo}",
+				subscriptions_url:
+					"https://api.github.com/users/Sd-Shiivam/subscriptions",
+				organizations_url:
+					"https://api.github.com/users/Sd-Shiivam/orgs",
+				repos_url: "https://api.github.com/users/Sd-Shiivam/repos",
+				events_url:
+					"https://api.github.com/users/Sd-Shiivam/events{/privacy}",
+				received_events_url:
+					"https://api.github.com/users/Sd-Shiivam/received_events",
+				type: "User",
+				user_view_type: "public",
+				site_admin: false,
+			},
+			html_url: "https://github.com/Sd-Shiivam/Sd-Shiivam",
+			description: "Config files for my GitHub profile.",
+			fork: false,
+			url: "https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam",
+			forks_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/forks",
+			keys_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/keys{/key_id}",
+			collaborators_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/collaborators{/collaborator}",
+			teams_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/teams",
+			hooks_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/hooks",
+			issue_events_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/issues/events{/number}",
+			events_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/events",
+			assignees_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/assignees{/user}",
+			branches_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/branches{/branch}",
+			tags_url: "https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/tags",
+			blobs_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/blobs{/sha}",
+			git_tags_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/tags{/sha}",
+			git_refs_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/refs{/sha}",
+			trees_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/trees{/sha}",
+			statuses_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/statuses/{sha}",
+			languages_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/languages",
+			stargazers_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/stargazers",
+			contributors_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/contributors",
+			subscribers_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/subscribers",
+			subscription_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/subscription",
+			commits_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/commits{/sha}",
+			git_commits_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/commits{/sha}",
+			comments_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/comments{/number}",
+			issue_comment_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/issues/comments{/number}",
+			contents_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/contents/{+path}",
+			compare_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/compare/{base}...{head}",
+			merges_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/merges",
+			archive_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/{archive_format}{/ref}",
+			downloads_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/downloads",
+			issues_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/issues{/number}",
+			pulls_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/pulls{/number}",
+			milestones_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/milestones{/number}",
+			notifications_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/notifications{?since,all,participating}",
+			labels_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/labels{/name}",
+			releases_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/releases{/id}",
+			deployments_url:
+				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/deployments",
+			created_at: "2021-06-11T13:57:56Z",
+			updated_at: "2024-10-17T19:51:00Z",
+			pushed_at: "2024-10-17T19:50:56Z",
+			git_url: "git://github.com/Sd-Shiivam/Sd-Shiivam.git",
+			ssh_url: "git@github.com:Sd-Shiivam/Sd-Shiivam.git",
+			clone_url: "https://github.com/Sd-Shiivam/Sd-Shiivam.git",
+			svn_url: "https://github.com/Sd-Shiivam/Sd-Shiivam",
+			homepage: "https://github.com/Sd-Shivam",
+			size: 3679,
+			stargazers_count: 4,
+			watchers_count: 4,
+			language: null,
+			has_issues: false,
+			has_projects: true,
+			has_downloads: true,
+			has_wiki: false,
+			has_pages: false,
+			has_discussions: false,
+			forks_count: 1,
+			mirror_url: null,
+			archived: false,
+			disabled: false,
+			open_issues_count: 0,
+			license: null,
+			allow_forking: true,
+			is_template: false,
+			web_commit_signoff_required: false,
+			topics: ["config", "github-config"],
+			visibility: "public",
+			forks: 1,
+			open_issues: 0,
+			watchers: 4,
+			default_branch: "main",
+		},
+		{
+			id: 874322739,
+			node_id: "R_kgDONB0bMw",
+			name: "Web-Portfolio",
+			full_name: "Sd-Shiivam/Web-Portfolio",
+			private: false,
+			owner: {
+				login: "Sd-Shiivam",
+				id: 75006771,
+				node_id: "MDQ6VXNlcjc1MDA2Nzcx",
+				avatar_url:
+					"https://avatars.githubusercontent.com/u/75006771?v=4",
+				gravatar_id: "",
+				url: "https://api.github.com/users/Sd-Shiivam",
+				html_url: "https://github.com/Sd-Shiivam",
+				followers_url:
+					"https://api.github.com/users/Sd-Shiivam/followers",
+				following_url:
+					"https://api.github.com/users/Sd-Shiivam/following{/other_user}",
+				gists_url:
+					"https://api.github.com/users/Sd-Shiivam/gists{/gist_id}",
+				starred_url:
+					"https://api.github.com/users/Sd-Shiivam/starred{/owner}{/repo}",
+				subscriptions_url:
+					"https://api.github.com/users/Sd-Shiivam/subscriptions",
+				organizations_url:
+					"https://api.github.com/users/Sd-Shiivam/orgs",
+				repos_url: "https://api.github.com/users/Sd-Shiivam/repos",
+				events_url:
+					"https://api.github.com/users/Sd-Shiivam/events{/privacy}",
+				received_events_url:
+					"https://api.github.com/users/Sd-Shiivam/received_events",
+				type: "User",
+				user_view_type: "public",
+				site_admin: false,
+			},
+			html_url: "https://github.com/Sd-Shiivam/Web-Portfolio",
+			description:
+				"my portfolio! This project is built using React and showcases my journey as a Cybersecurity Enthusiast, Full Stack Developer, and Ethical Hacker. Here, you can explore my skills, projects, and thoughts on cybersecurity, programming, and web development.",
+			fork: false,
+			url: "https://api.github.com/repos/Sd-Shiivam/Web-Portfolio",
+			forks_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/forks",
+			keys_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/keys{/key_id}",
+			collaborators_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/collaborators{/collaborator}",
+			teams_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/teams",
+			hooks_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/hooks",
+			issue_events_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/issues/events{/number}",
+			events_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/events",
+			assignees_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/assignees{/user}",
+			branches_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/branches{/branch}",
+			tags_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/tags",
+			blobs_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/blobs{/sha}",
+			git_tags_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/tags{/sha}",
+			git_refs_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/refs{/sha}",
+			trees_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/trees{/sha}",
+			statuses_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/statuses/{sha}",
+			languages_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/languages",
+			stargazers_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/stargazers",
+			contributors_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/contributors",
+			subscribers_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/subscribers",
+			subscription_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/subscription",
+			commits_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/commits{/sha}",
+			git_commits_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/commits{/sha}",
+			comments_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/comments{/number}",
+			issue_comment_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/issues/comments{/number}",
+			contents_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/contents/{+path}",
+			compare_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/compare/{base}...{head}",
+			merges_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/merges",
+			archive_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/{archive_format}{/ref}",
+			downloads_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/downloads",
+			issues_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/issues{/number}",
+			pulls_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/pulls{/number}",
+			milestones_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/milestones{/number}",
+			notifications_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/notifications{?since,all,participating}",
+			labels_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/labels{/name}",
+			releases_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/releases{/id}",
+			deployments_url:
+				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/deployments",
+			created_at: "2024-10-17T16:12:03Z",
+			updated_at: "2024-10-17T19:39:13Z",
+			pushed_at: "2024-10-17T19:39:09Z",
+			git_url: "git://github.com/Sd-Shiivam/Web-Portfolio.git",
+			ssh_url: "git@github.com:Sd-Shiivam/Web-Portfolio.git",
+			clone_url: "https://github.com/Sd-Shiivam/Web-Portfolio.git",
+			svn_url: "https://github.com/Sd-Shiivam/Web-Portfolio",
+			homepage: null,
+			size: 5120,
+			stargazers_count: 0,
+			watchers_count: 0,
+			language: "JavaScript",
+			has_issues: true,
+			has_projects: true,
+			has_downloads: true,
+			has_wiki: true,
+			has_pages: true,
+			has_discussions: false,
+			forks_count: 0,
+			mirror_url: null,
+			archived: false,
+			disabled: false,
+			open_issues_count: 0,
+			license: null,
+			allow_forking: true,
+			is_template: false,
+			web_commit_signoff_required: false,
+			topics: [],
+			visibility: "public",
+			forks: 0,
+			open_issues: 0,
+			watchers: 0,
+			default_branch: "main",
+		},
 		{
 			id: 776757681,
 			node_id: "R_kgDOLkxhsQ",
@@ -553,164 +846,6 @@ const INFO = {
 			default_branch: "main",
 		},
 		{
-			id: 563974712,
-			node_id: "R_kgDOIZ2SOA",
-			name: "Fitness_Club-Template",
-			full_name: "Sd-Shiivam/Fitness_Club-Template",
-			private: false,
-			owner: {
-				login: "Sd-Shiivam",
-				id: 75006771,
-				node_id: "MDQ6VXNlcjc1MDA2Nzcx",
-				avatar_url:
-					"https://avatars.githubusercontent.com/u/75006771?v=4",
-				gravatar_id: "",
-				url: "https://api.github.com/users/Sd-Shiivam",
-				html_url: "https://github.com/Sd-Shiivam",
-				followers_url:
-					"https://api.github.com/users/Sd-Shiivam/followers",
-				following_url:
-					"https://api.github.com/users/Sd-Shiivam/following{/other_user}",
-				gists_url:
-					"https://api.github.com/users/Sd-Shiivam/gists{/gist_id}",
-				starred_url:
-					"https://api.github.com/users/Sd-Shiivam/starred{/owner}{/repo}",
-				subscriptions_url:
-					"https://api.github.com/users/Sd-Shiivam/subscriptions",
-				organizations_url:
-					"https://api.github.com/users/Sd-Shiivam/orgs",
-				repos_url: "https://api.github.com/users/Sd-Shiivam/repos",
-				events_url:
-					"https://api.github.com/users/Sd-Shiivam/events{/privacy}",
-				received_events_url:
-					"https://api.github.com/users/Sd-Shiivam/received_events",
-				type: "User",
-				user_view_type: "public",
-				site_admin: false,
-			},
-			html_url: "https://github.com/Sd-Shiivam/Fitness_Club-Template",
-			description:
-				"Fitness club HTML template with a simple, minimalistic design. Just  a 1st year Exam passing Project.",
-			fork: false,
-			url: "https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template",
-			forks_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/forks",
-			keys_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/keys{/key_id}",
-			collaborators_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/collaborators{/collaborator}",
-			teams_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/teams",
-			hooks_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/hooks",
-			issue_events_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/issues/events{/number}",
-			events_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/events",
-			assignees_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/assignees{/user}",
-			branches_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/branches{/branch}",
-			tags_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/tags",
-			blobs_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/git/blobs{/sha}",
-			git_tags_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/git/tags{/sha}",
-			git_refs_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/git/refs{/sha}",
-			trees_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/git/trees{/sha}",
-			statuses_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/statuses/{sha}",
-			languages_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/languages",
-			stargazers_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/stargazers",
-			contributors_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/contributors",
-			subscribers_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/subscribers",
-			subscription_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/subscription",
-			commits_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/commits{/sha}",
-			git_commits_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/git/commits{/sha}",
-			comments_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/comments{/number}",
-			issue_comment_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/issues/comments{/number}",
-			contents_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/contents/{+path}",
-			compare_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/compare/{base}...{head}",
-			merges_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/merges",
-			archive_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/{archive_format}{/ref}",
-			downloads_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/downloads",
-			issues_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/issues{/number}",
-			pulls_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/pulls{/number}",
-			milestones_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/milestones{/number}",
-			notifications_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/notifications{?since,all,participating}",
-			labels_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/labels{/name}",
-			releases_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/releases{/id}",
-			deployments_url:
-				"https://api.github.com/repos/Sd-Shiivam/Fitness_Club-Template/deployments",
-			created_at: "2022-11-09T18:17:22Z",
-			updated_at: "2024-10-17T14:30:55Z",
-			pushed_at: "2023-01-19T14:31:43Z",
-			git_url: "git://github.com/Sd-Shiivam/Fitness_Club-Template.git",
-			ssh_url: "git@github.com:Sd-Shiivam/Fitness_Club-Template.git",
-			clone_url:
-				"https://github.com/Sd-Shiivam/Fitness_Club-Template.git",
-			svn_url: "https://github.com/Sd-Shiivam/Fitness_Club-Template",
-			homepage: "https://sd-shiivam.github.io/Fitness_Club-Template/",
-			size: 8459,
-			stargazers_count: 2,
-			watchers_count: 2,
-			language: "HTML",
-			has_issues: true,
-			has_projects: true,
-			has_downloads: true,
-			has_wiki: true,
-			has_pages: true,
-			has_discussions: false,
-			forks_count: 0,
-			mirror_url: null,
-			archived: false,
-			disabled: false,
-			open_issues_count: 0,
-			license: {
-				key: "mit",
-				name: "MIT License",
-				spdx_id: "MIT",
-				url: "https://api.github.com/licenses/mit",
-				node_id: "MDc6TGljZW5zZTEz",
-			},
-			allow_forking: true,
-			is_template: false,
-			web_commit_signoff_required: false,
-			topics: [
-				"fitness-website-for-gym-freakers",
-				"gym",
-				"html-template",
-			],
-			visibility: "public",
-			forks: 0,
-			open_issues: 0,
-			watchers: 2,
-			default_branch: "master",
-		},
-		{
 			id: 316137153,
 			node_id: "MDEwOlJlcG9zaXRvcnkzMTYxMzcxNTM=",
 			name: "Quiz-X",
@@ -856,151 +991,6 @@ const INFO = {
 			forks: 0,
 			open_issues: 0,
 			watchers: 1,
-			default_branch: "main",
-		},
-		{
-			id: 376042371,
-			node_id: "MDEwOlJlcG9zaXRvcnkzNzYwNDIzNzE=",
-			name: "Sd-Shiivam",
-			full_name: "Sd-Shiivam/Sd-Shiivam",
-			private: false,
-			owner: {
-				login: "Sd-Shiivam",
-				id: 75006771,
-				node_id: "MDQ6VXNlcjc1MDA2Nzcx",
-				avatar_url:
-					"https://avatars.githubusercontent.com/u/75006771?v=4",
-				gravatar_id: "",
-				url: "https://api.github.com/users/Sd-Shiivam",
-				html_url: "https://github.com/Sd-Shiivam",
-				followers_url:
-					"https://api.github.com/users/Sd-Shiivam/followers",
-				following_url:
-					"https://api.github.com/users/Sd-Shiivam/following{/other_user}",
-				gists_url:
-					"https://api.github.com/users/Sd-Shiivam/gists{/gist_id}",
-				starred_url:
-					"https://api.github.com/users/Sd-Shiivam/starred{/owner}{/repo}",
-				subscriptions_url:
-					"https://api.github.com/users/Sd-Shiivam/subscriptions",
-				organizations_url:
-					"https://api.github.com/users/Sd-Shiivam/orgs",
-				repos_url: "https://api.github.com/users/Sd-Shiivam/repos",
-				events_url:
-					"https://api.github.com/users/Sd-Shiivam/events{/privacy}",
-				received_events_url:
-					"https://api.github.com/users/Sd-Shiivam/received_events",
-				type: "User",
-				user_view_type: "public",
-				site_admin: false,
-			},
-			html_url: "https://github.com/Sd-Shiivam/Sd-Shiivam",
-			description: "Config files for my GitHub profile.",
-			fork: false,
-			url: "https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam",
-			forks_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/forks",
-			keys_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/keys{/key_id}",
-			collaborators_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/collaborators{/collaborator}",
-			teams_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/teams",
-			hooks_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/hooks",
-			issue_events_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/issues/events{/number}",
-			events_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/events",
-			assignees_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/assignees{/user}",
-			branches_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/branches{/branch}",
-			tags_url: "https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/tags",
-			blobs_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/blobs{/sha}",
-			git_tags_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/tags{/sha}",
-			git_refs_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/refs{/sha}",
-			trees_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/trees{/sha}",
-			statuses_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/statuses/{sha}",
-			languages_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/languages",
-			stargazers_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/stargazers",
-			contributors_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/contributors",
-			subscribers_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/subscribers",
-			subscription_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/subscription",
-			commits_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/commits{/sha}",
-			git_commits_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/git/commits{/sha}",
-			comments_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/comments{/number}",
-			issue_comment_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/issues/comments{/number}",
-			contents_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/contents/{+path}",
-			compare_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/compare/{base}...{head}",
-			merges_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/merges",
-			archive_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/{archive_format}{/ref}",
-			downloads_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/downloads",
-			issues_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/issues{/number}",
-			pulls_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/pulls{/number}",
-			milestones_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/milestones{/number}",
-			notifications_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/notifications{?since,all,participating}",
-			labels_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/labels{/name}",
-			releases_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/releases{/id}",
-			deployments_url:
-				"https://api.github.com/repos/Sd-Shiivam/Sd-Shiivam/deployments",
-			created_at: "2021-06-11T13:57:56Z",
-			updated_at: "2024-10-17T19:51:00Z",
-			pushed_at: "2024-10-17T19:50:56Z",
-			git_url: "git://github.com/Sd-Shiivam/Sd-Shiivam.git",
-			ssh_url: "git@github.com:Sd-Shiivam/Sd-Shiivam.git",
-			clone_url: "https://github.com/Sd-Shiivam/Sd-Shiivam.git",
-			svn_url: "https://github.com/Sd-Shiivam/Sd-Shiivam",
-			homepage: "https://github.com/Sd-Shivam",
-			size: 3679,
-			stargazers_count: 4,
-			watchers_count: 4,
-			language: null,
-			has_issues: false,
-			has_projects: true,
-			has_downloads: true,
-			has_wiki: false,
-			has_pages: false,
-			has_discussions: false,
-			forks_count: 1,
-			mirror_url: null,
-			archived: false,
-			disabled: false,
-			open_issues_count: 0,
-			license: null,
-			allow_forking: true,
-			is_template: false,
-			web_commit_signoff_required: false,
-			topics: ["config", "github-config"],
-			visibility: "public",
-			forks: 1,
-			open_issues: 0,
-			watchers: 4,
 			default_branch: "main",
 		},
 		{
@@ -1301,154 +1291,7 @@ const INFO = {
 			open_issues: 0,
 			watchers: 2,
 			default_branch: "main",
-		},
-		{
-			id: 874322739,
-			node_id: "R_kgDONB0bMw",
-			name: "Web-Portfolio",
-			full_name: "Sd-Shiivam/Web-Portfolio",
-			private: false,
-			owner: {
-				login: "Sd-Shiivam",
-				id: 75006771,
-				node_id: "MDQ6VXNlcjc1MDA2Nzcx",
-				avatar_url:
-					"https://avatars.githubusercontent.com/u/75006771?v=4",
-				gravatar_id: "",
-				url: "https://api.github.com/users/Sd-Shiivam",
-				html_url: "https://github.com/Sd-Shiivam",
-				followers_url:
-					"https://api.github.com/users/Sd-Shiivam/followers",
-				following_url:
-					"https://api.github.com/users/Sd-Shiivam/following{/other_user}",
-				gists_url:
-					"https://api.github.com/users/Sd-Shiivam/gists{/gist_id}",
-				starred_url:
-					"https://api.github.com/users/Sd-Shiivam/starred{/owner}{/repo}",
-				subscriptions_url:
-					"https://api.github.com/users/Sd-Shiivam/subscriptions",
-				organizations_url:
-					"https://api.github.com/users/Sd-Shiivam/orgs",
-				repos_url: "https://api.github.com/users/Sd-Shiivam/repos",
-				events_url:
-					"https://api.github.com/users/Sd-Shiivam/events{/privacy}",
-				received_events_url:
-					"https://api.github.com/users/Sd-Shiivam/received_events",
-				type: "User",
-				user_view_type: "public",
-				site_admin: false,
-			},
-			html_url: "https://github.com/Sd-Shiivam/Web-Portfolio",
-			description:
-				"my portfolio! This project is built using React and showcases my journey as a Cybersecurity Enthusiast, Full Stack Developer, and Ethical Hacker. Here, you can explore my skills, projects, and thoughts on cybersecurity, programming, and web development.",
-			fork: false,
-			url: "https://api.github.com/repos/Sd-Shiivam/Web-Portfolio",
-			forks_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/forks",
-			keys_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/keys{/key_id}",
-			collaborators_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/collaborators{/collaborator}",
-			teams_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/teams",
-			hooks_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/hooks",
-			issue_events_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/issues/events{/number}",
-			events_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/events",
-			assignees_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/assignees{/user}",
-			branches_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/branches{/branch}",
-			tags_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/tags",
-			blobs_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/blobs{/sha}",
-			git_tags_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/tags{/sha}",
-			git_refs_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/refs{/sha}",
-			trees_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/trees{/sha}",
-			statuses_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/statuses/{sha}",
-			languages_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/languages",
-			stargazers_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/stargazers",
-			contributors_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/contributors",
-			subscribers_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/subscribers",
-			subscription_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/subscription",
-			commits_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/commits{/sha}",
-			git_commits_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/git/commits{/sha}",
-			comments_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/comments{/number}",
-			issue_comment_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/issues/comments{/number}",
-			contents_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/contents/{+path}",
-			compare_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/compare/{base}...{head}",
-			merges_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/merges",
-			archive_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/{archive_format}{/ref}",
-			downloads_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/downloads",
-			issues_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/issues{/number}",
-			pulls_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/pulls{/number}",
-			milestones_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/milestones{/number}",
-			notifications_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/notifications{?since,all,participating}",
-			labels_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/labels{/name}",
-			releases_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/releases{/id}",
-			deployments_url:
-				"https://api.github.com/repos/Sd-Shiivam/Web-Portfolio/deployments",
-			created_at: "2024-10-17T16:12:03Z",
-			updated_at: "2024-10-17T19:39:13Z",
-			pushed_at: "2024-10-17T19:39:09Z",
-			git_url: "git://github.com/Sd-Shiivam/Web-Portfolio.git",
-			ssh_url: "git@github.com:Sd-Shiivam/Web-Portfolio.git",
-			clone_url: "https://github.com/Sd-Shiivam/Web-Portfolio.git",
-			svn_url: "https://github.com/Sd-Shiivam/Web-Portfolio",
-			homepage: null,
-			size: 5120,
-			stargazers_count: 0,
-			watchers_count: 0,
-			language: "JavaScript",
-			has_issues: true,
-			has_projects: true,
-			has_downloads: true,
-			has_wiki: true,
-			has_pages: true,
-			has_discussions: false,
-			forks_count: 0,
-			mirror_url: null,
-			archived: false,
-			disabled: false,
-			open_issues_count: 0,
-			license: null,
-			allow_forking: true,
-			is_template: false,
-			web_commit_signoff_required: false,
-			topics: [],
-			visibility: "public",
-			forks: 0,
-			open_issues: 0,
-			watchers: 0,
-			default_branch: "main",
-		},
+		}
 	],
 };
 
