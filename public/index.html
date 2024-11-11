@@ -14,5 +14,17 @@
 	<div id="root"></div>
 </body>
 <script src="%PUBLIC_URL%/Matrix.js"></script>
+<script>
+	// Create a function to set the viewport for desktop mode
+function setDesktopViewport() {
+    const viewport = document.createElement('meta');
+    viewport.name = "viewport";
+    viewport.content = "width=1024"; // You can set a custom width
+    document.getElementsByTagName('head')[0].appendChild(viewport);
+}
 
+// Execute the function to set the viewport
+setDesktopViewport();
+
+</script>
 </html>
