@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
+import ViewCount from "../homepage/viewCount";
 
 const NavBar = (props) => {
 	const { active } = props;
@@ -56,6 +57,11 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/contact">Contact</Link>
+							</li>
+														<li
+								className={"nav-item active"}
+							>
+								<ViewCount />
 							</li>
 						</ul>
 					</div>
