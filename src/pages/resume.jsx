@@ -8,7 +8,6 @@ import Logo from "../components/common/logo";
 
 const Resume = () => {
     const [pdfImage] = useState("./resume.png");
-    const [isHovered, setIsHovered] = useState(false); // Track hover state
 
     const resumeContainerStyle = {
         width: '100%',
