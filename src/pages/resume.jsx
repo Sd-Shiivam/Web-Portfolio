@@ -55,9 +55,6 @@ const Resume = () => {
                         <div
                             className="resume-viewer-container"
                             style={resumeViewerContainerStyle}
-                            // Set hover state when mouse enters and leaves the container
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
                         >
                             {pdfImage ? (
                                 <img
