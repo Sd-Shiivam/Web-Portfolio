@@ -21,6 +21,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 import "./styles/homepage.css";
 import TextTyper from "./TextTyper";
+import Hint from "../components/common/Hint";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -78,7 +79,7 @@ const Homepage = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content">
+			<div className="page-content" style={{ display: 'none' }}>
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
@@ -192,6 +193,8 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+
+			<Hint />
 		</React.Fragment>
 	);
 };

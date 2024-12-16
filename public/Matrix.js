@@ -1,9 +1,8 @@
 // Get the canvas element
 const canvas = document.getElementById("matrixCanvas");
 const ctx = canvas.getContext("2d");
-
-const canvasWidth = 1024;
-const canvasHeight = 2024;
+const canvasWidth = window.innerWidth;
+const canvasHeight = window.innerHeight;
 canvas.width = canvasWidth;
 canvas.height = canvasHeight;
 
