@@ -25,6 +25,7 @@ import Hint from "../components/common/Hint";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
+	const [showProfile, setshowProfile] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
 
@@ -56,6 +57,13 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
+
+	useEffect(() => {
+		const profileStatus = localStorage.getItem("showProfile");
+		if (profileStatus) {
+			setshowProfile(true);
+		}
+	}, [])
 	const currentSEO = SEO.find((item) => item.page === "home");
 	const domain_style = { color: "darkgreen" }
 	const logoStyle = {
@@ -78,121 +86,122 @@ const Homepage = () => {
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
-
-			<div className="page-content" style={{ display: 'none' }}>
-				<NavBar active="home" />
-				<div className="content-wrapper">
-					<div className="homepage-logo-container">
-						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
-						</div>
-					</div>
-
-					<div className="homepage-container">
-						<div className="homepage-first-area">
-							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
-									Hello, <br /> I'm {INFO.main.name} – <br /> <span style={domain_style}><DomainTyper /></span>
-									<span class="auto-text"></span>
-								</div>
-
-								<div className="subtitle homepage-subtitle">
-									<TextTyper speed={50} text={INFO.homepage_about.description} />
-								</div>
+			{showProfile ?
+				<div className="page-content">
+					<NavBar active="home" />
+					<div className="content-wrapper">
+						<div className="homepage-logo-container">
+							<div style={logoStyle}>
+								<Logo width={logoSize} link={false} />
 							</div>
+						</div>
 
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="homepage.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
+						<div className="homepage-container">
+							<div className="homepage-first-area">
+								<div className="homepage-first-area-left-side">
+									<div className="title homepage-title">
+										Hello, <br /> I'm {INFO.main.name} – <br /> <span style={domain_style}><DomainTyper /></span>
+										<span class="auto-text"></span>
+									</div>
+
+									<div className="subtitle homepage-subtitle">
+										<TextTyper speed={50} text={INFO.homepage_about.description} />
+									</div>
+								</div>
+
+								<div className="homepage-first-area-right-side">
+									<div className="homepage-image-container">
+										<div className="homepage-image-wrapper">
+											<img
+												src="homepage.jpg"
+												alt="about"
+												className="homepage-image"
+											/>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
-
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
-
-						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{INFO.articles[0] ?
-									<Article
-										key={(1).toString()}
-										date={INFO.articles[0].date}
-										title={INFO.articles[0].title}
-										description={INFO.articles[0].body.substring(0, 200) + "....."}
-										link={"/article/" + (0 + 1)}
-									/> : null}
-								{INFO.articles[1] ?
-									<Article
-										key={(2).toString()}
-										date={INFO.articles[1].date}
-										title={INFO.articles[1].title}
-										description={INFO.articles[1].body.substring(0, 200) + "....."}
-										link={"/article/" + (2)}
-									/> : null}
-
+							<div className="homepage-socials">
+								<a
+									href={INFO.socials.twitter}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faTwitter}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={INFO.socials.github}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faGithub}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={INFO.socials.instagram}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faInstagram}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={`mailto:${INFO.main.email}`}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faMailBulk}
+										className="homepage-social-icon"
+									/>
+								</a>
 							</div>
 
-							<div className="homepage-works">
-								<Works />
+							<div className="homepage-projects">
+								<AllProjects />
 							</div>
-						</div>
 
-						<div className="page-footer">
-							<Footer />
+							<div className="homepage-after-title">
+								<div className="homepage-articles">
+									{INFO.articles[0] ?
+										<Article
+											key={(1).toString()}
+											date={INFO.articles[0].date}
+											title={INFO.articles[0].title}
+											description={INFO.articles[0].body.substring(0, 200) + "....."}
+											link={"/article/" + (0 + 1)}
+										/> : null}
+									{INFO.articles[1] ?
+										<Article
+											key={(2).toString()}
+											date={INFO.articles[1].date}
+											title={INFO.articles[1].title}
+											description={INFO.articles[1].body.substring(0, 200) + "....."}
+											link={"/article/" + (2)}
+										/> : null}
+
+								</div>
+
+								<div className="homepage-works">
+									<Works />
+								</div>
+							</div>
+
+							<div className="page-footer">
+								<Footer />
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+				</div> : <div style={{ display: "none" }}> Check github code to open Portfolio https://github.com/Sd-Shiivam/Web-Portfolio </div>
+			}
 
 			<Hint />
 		</React.Fragment>

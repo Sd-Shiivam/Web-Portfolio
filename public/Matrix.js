@@ -37,4 +37,5 @@ function renderMatrix() {
 	requestAnimationFrame(renderMatrix);
 	updateMatrix();
 }
+
 renderMatrix();

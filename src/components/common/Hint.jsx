@@ -13,6 +13,7 @@ const Hint = () => {
     }, []);
     const hintStyle = {
         display: visible ? 'block' : 'none',
+        ursor: "pointer",
         bottom: '4vh',
         left: '38vw',
         padding: '30px 79px',
@@ -25,9 +26,13 @@ const Hint = () => {
         border: '1px green double'
     };
 
+    const openGit = () => {
+        window.location = "https://github.com/Sd-Shiivam/Web-Portfolio"
+    }
+
     return (
-        <div style={hintStyle}>
-            My Portfolio - Sd-Shiivam
+        <div style={hintStyle} onClick={openGit}>
+            Portfolio - Sd-Shiivam
         </div>
     );
 };
